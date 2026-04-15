@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+package-lock.json
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Model checkpoints (large binary files — store separately)
+models_new/
+*.pt
+*.bin
+*.ckpt
+
+# Data / output files (too large for GitHub)
+output/
+predictions_*/
+predictions_teacher_reasoning/
+predictions_three_class/
+predictions_structural/
+concatenated_trials.jsonl
+*.jsonl
+*.tsv
+qrels*.txt
+
+# Logs
+*.log
+nohup.out
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDF / compiled reports
+*.pdf
